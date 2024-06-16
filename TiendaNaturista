@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida Natural - Nourish Your Body, Naturally</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f9f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c7a2c;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #3b873b;
+            padding: 1em 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2em;
+        }
+        .about img, .products img {
+            width: 100%;
+            height: auto;
+        }
+        .products img {
+            max-height: 200px;
+            object-fit: cover;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #2c7a2c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vida Natural</h1>
+        <p>Nourish Your Body, Naturally</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+        <a href="#locations">Store Locations</a>
+    </nav>
+    <section id="home">
+        <h2>Welcome to Vida Natural</h2>
+        <p>At Vida Natural, we believe in nourishing your body with the finest natural and organic products. Explore our wide range of health foods, supplements, and wellness products designed to support a healthy lifestyle.</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Vida Natural was founded with the mission to provide our community with access to high-quality, natural health products. Our passion for health and wellness drives us to source the best organic and eco-friendly products available. Join us on our journey to better health.</p>
+        <img src="about-us.jpg" alt="About Us">
+    </section>
+    <section id="products">
+        <h2>Our Products</h2>
+        <div>
+            <h3>Organic Fruits & Vegetables</h3>
+            <img src="organic-fruits.jpg" alt="Organic Fruits and Vegetables">
+            <p>Fresh, organic produce sourced from local farms.</p>
+        </div>
+        <div>
+            <h3>Natural Supplements</h3>
+            <img src="supplements.jpg" alt="Natural Supplements">
+            <p>A range of supplements to support your health and wellness.</p>
+        </div>
+        <div>
+            <h3>Healthy Snacks</h3>
+            <img src="healthy-snacks.jpg" alt="Healthy Snacks">
+            <p>Delicious and nutritious snacks for on-the-go.</p>
+        </div>
+        <!-- Add more product categories as needed -->
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>Health Benefits of Organic Foods</h3>
+            <p>Explore the numerous health benefits of incorporating organic foods into your diet...</p>
+        </article>
+        <article>
+            <h3>Top 10 Superfoods for Wellness</h3>
+            <p>Discover the top superfoods that can boost your health and vitality...</p>
+        </article>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@vidanatural.com">info@vidanatural.com</a></p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Follow us on social media for the latest updates and health tips.</p>
+    </section>
+    <section id="locations">
+        <h2>Our Store Locations</h2>
+        <p>Visit us at any of our convenient locations:</p>
+        <ul>
+            <li>123 Health Ave, Wellness City, CA</li>
+            <li>456 Green St, Nature Town, NY</li>
+            <li>789 Organic Blvd, Freshville, TX</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Vida Natural</p>
+    </footer>
+</body>
+</html>
